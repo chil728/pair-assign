@@ -142,6 +142,7 @@ button {
   display: grid;
   justify-content: center;
   width: 300px;
+  height: auto;
   padding: 20px 40px;
   font-family: Helvetica, sans-serif;
   background-color: #ffffff;
