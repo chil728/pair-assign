@@ -205,7 +205,7 @@ main {
 }
 
 section {
-    min-height: 50dvh;
+    min-height: 60dvh;
     padding: 40px;
 }
 
@@ -357,7 +357,7 @@ aside ul li a:hover {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 80px;
+    gap: 40px;
 }
 
 .partner {
