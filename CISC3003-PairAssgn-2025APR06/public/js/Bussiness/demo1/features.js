@@ -6,7 +6,7 @@ if (previewNavbar) {
             <!-- Left Navigation -->
             <div class="site-title flex align-item-center">
                 <div>
-                    <a href="index.html"><h1><span class="clr-red">Mit</span> <span class="clr-green">Canteen</span></h1></a>
+                    <a href="index.html"><h1><span class="clr-red">Dev.</span> <span class="clr-green">Canteen</span></h1></a>
                 </div>
                 <!-- Toggle Bars -->
                 <div class="toggle-bars mybar">
@@ -165,7 +165,7 @@ if (signUpModal){
     <div class="modal-container">
         <!-- Written Stuff -->
         <div class="modal-content">
-            <div class="md">Welcome to <br><span class="clr-red md">Mit</span> <span class="clr-green md">Canteen</span></div>
+            <div class="md">Welcome to <br><span class="clr-red md">Dev.</span> <span class="clr-green md">Canteen</span></div>
             <div><i onclick="signUpModal.classList.remove('show');" class="fas fa-times"></i></div>
         </div>
         <!-- Other way of LogIn's -->
@@ -263,8 +263,8 @@ function customerFooterUI() {
                         who shared a vision of establishing centers of scientific
                         learning around the country.</p>
                         <ul class="py-1">
-                            <li><i class="fab fa-facebook-f"></i><a href="https://www.facebook.com/malwainstitute/" target="_blank"> Facebook</a></li>
-                            <li><i class="fab fa-instagram"></i><a href="https://www.instagram.com/malwa_institute_of_technology/" target="_blank">Instagram</a></li>
+                            <li><i class="fab fa-facebook-f"></i><a href="" target="_blank"> Facebook</a></li>
+                            <li><i class="fab fa-instagram"></i><a href="" target="_blank">Instagram</a></li>
                         </ul>
                     </article>
                     <!-- Navigation Links -->
@@ -273,18 +273,16 @@ function customerFooterUI() {
                             <h1 class="sm">Quick Links</h1>
                             <li><a href="index.html">Canteen Home</a></li>
                             <li><a href="our-vision.html">Our Vision</a></li>
-                            <li><a href="https://github.com/rvutd/mit-canteen-site" target="_blank">Git Repository</a></li>
-                            <li><a href="https://mitindore.co.in/" target="_blank">MIT Indore</a></li>
+                            <li><a href="" target="_blank">Git Repository</a></li>
                         </ul>
                     </article>
                     <!-- Contact Details -->
                     <article class="contact">
                         <ul>
                             <h1 class="sm">Contact Information</h1>
-                            <li> <i class="fas fa-phone-alt"></i> <p>+91-731-2810001-08</p></li>
-                            <li> <i class="fas fa-envelope"></i> <p>admission@mitindore.co.in</p></li>
-                            <li> <i class="fas fa-map-marker-alt"></i> <p>Indore-Dewas Bypass Road, Indore (MP)-452016</p></li>
-                            <li> <i class="fas fa-globe-asia"></i> <p>For Professional Courses, Visit: www.altius.ac.in</p></li>
+                            <li> <i class="fas fa-phone-alt"></i> <p>+853 8888 8888</p></li>
+                            <li> <i class="fas fa-envelope"></i> <p>@um.edu.mo</p></li>
+                            <li> <i class="fas fa-map-marker-alt"></i> <p>Room 4040  Faculty of Science and Technology <br> University of Macau, E11 Avenida da Universidade <br> Taipa, Macau, China</p></li>
                         </ul>
                     </article>
                 </main>
@@ -318,8 +316,8 @@ function userFooterUI() {
                         who shared a vision of establishing centers of scientific
                         learning around the country.</p>
                         <ul class="py-1">
-                            <li><i class="fab fa-facebook-f"></i><a href="https://www.facebook.com/malwainstitute/" target="_blank"> Facebook</a></li>
-                            <li><i class="fab fa-instagram"></i><a href="https://www.instagram.com/malwa_institute_of_technology/" target="_blank">Instagram</a></li>
+                            <li><i class="fab fa-facebook-f"></i><a href="" target="_blank"> Facebook</a></li>
+                            <li><i class="fab fa-instagram"></i><a href="">Instagram</a></li>
                         </ul>
                     </article>
                     <!-- Navigation Links -->
@@ -328,18 +326,16 @@ function userFooterUI() {
                             <h1 class="sm">Quick Links</h1>
                             <li><a href="client-side.html">Menu</a></li>
                             <li><a href="user-orders.html">Your Orders</a></li>
-                            <li><a href="https://github.com/rvutd/mit-canteen-site" target="_blank">Git Repository</a></li>
-                            <li><a href="https://mitindore.co.in/" target="_blank">MIT Indore</a></li>
+                            <li><a href="" target="_blank">Git Repository</a></li>
                         </ul>
                     </article>
                     <!-- Contact Details -->
                     <article class="contact">
                         <ul>
                             <h1 class="sm">Contact Information</h1>
-                            <li> <i class="fas fa-phone-alt"></i> <p>+91-731-2810001-08</p></li>
-                            <li> <i class="fas fa-envelope"></i> <p>admission@mitindore.co.in</p></li>
-                            <li> <i class="fas fa-map-marker-alt"></i> <p>Indore-Dewas Bypass Road, Indore (MP)-452016</p></li>
-                            <li> <i class="fas fa-globe-asia"></i> <p>For Professional Courses, Visit: www.altius.ac.in</p></li>
+                            <li> <i class="fas fa-phone-alt"></i> <p>+853 8888 8888</p></li>
+                            <li> <i class="fas fa-envelope"></i> <p>@um.edu.mo</p></li>
+                            <li> <i class="fas fa-map-marker-alt"></i> <p>Room 4040  Faculty of Science and Technology <br> University of Macau, E11 Avenida da Universidade <br> Taipa, Macau, China</p></li>
                         </ul>
                     </article>
                 </main>
