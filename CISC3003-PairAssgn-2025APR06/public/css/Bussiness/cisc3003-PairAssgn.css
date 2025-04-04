@@ -114,10 +114,6 @@ li {
     cursor: pointer;
 }
 
-.nav-link.visiting {
-    font-weight: 700;
-}
-
 .nav-link::after {
     content: '';
     position: absolute;
@@ -131,6 +127,10 @@ li {
 }
 
 .nav-link:hover::after {
+    width: 100%;
+}
+
+.nav-link.visiting::after {
     width: 100%;
 }
 
