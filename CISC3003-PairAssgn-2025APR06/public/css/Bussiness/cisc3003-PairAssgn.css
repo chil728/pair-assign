@@ -114,6 +114,10 @@ li {
     cursor: pointer;
 }
 
+.nav-link.visiting {
+    font-weight: 700;
+}
+
 .nav-link::after {
     content: '';
     position: absolute;

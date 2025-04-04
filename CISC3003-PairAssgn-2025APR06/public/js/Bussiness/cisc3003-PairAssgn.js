@@ -57,13 +57,6 @@ function updateActiveLinkOnScroll() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    var typingEffect = new Typed(".typedText", {
-        strings: ["Dev.", "Dev."],
-        loop: true,
-        typeSpeed: 100,
-        backSpeed: 80,
-        backDelay: 2000,
-    });
 
     const toggleMenu = document.querySelector(".toggle-menu");
     const navLinks = document.querySelector(".nav-links");
@@ -71,6 +64,13 @@ document.addEventListener("DOMContentLoaded", () => {
     toggleMenu.addEventListener("click", () => {
         toggleMenu.classList.toggle("active");
         navLinks.classList.toggle("show");
+    })
+
+    document.querySelectorAll(".nav-link").forEach((link) => {
+        if (link.href === window.location.href) {
+            link.classList.add("visiting");
+            link.setAttribute("aria-current", "page");
+        }
     })
 })
 
