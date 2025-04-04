@@ -6,7 +6,7 @@ if (previewNavbar) {
             <!-- Left Navigation -->
             <div class="site-title flex align-item-center">
                 <div>
-                    <a href="index.html"><h1><span class="clr-red">Dev.</span> <span class="clr-green">Canteen</span></h1></a>
+                    <a href="cisc3003-project-demo01.html"><h1><span class="clr-red">Dev.</span> <span class="clr-green">Canteen</span></h1></a>
                 </div>
                 <!-- Toggle Bars -->
                 <div class="toggle-bars mybar">
@@ -18,8 +18,8 @@ if (previewNavbar) {
             <!-- Right Navigation -->
             <nav class="site-nav flex left-nav align-item-center">                
                 <ul class="flex">
-                    <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
-                    <li><a href="our-vision.html"><i class="far fa-eye"></i> Our Vision</a></li>
+                    <li><a href="cisc3003-project-demo01.html"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#our-vision"><i class="far fa-eye"></i> Our Vision</a></li>
                     <button  class="btn" id="sign-modal">Log In</button>
                     <button  class="btn" id="signup-modal">Sign Up</button>
                 </ul>
@@ -34,7 +34,7 @@ if (mobPreviewNavbar) {
     mobPreviewNavbar.innerHTML = `
         <nav class="nav container">
             <ul class="mob-ul">
-                <li><a href="index.html">Home</a></li> 
+                <li><a href="cisc3003-project-demo01.html">Home</a></li> 
                 <li><a href="our-vision.html">Our Vision</a></li>
                 <button class="btn" id="sign-modal">Log In</button>
                 <button class="btn" id="signup-modal">Sign Up</button>
@@ -190,8 +190,8 @@ if (signUpModal){
         </label>
         <!-- Written Stuff -->
         <div class="modal-content m-content-2 py-1">
-            Click “Register” to agree to Terms of Service and acknowledge 
-            that Privacy Policy applies to you. Have account? 
+            <!--Click “Register” to agree to Terms of Service and acknowledge 
+            that Privacy Policy applies to you. Have account?-->
             <a id="sign-modal" 
             onclick="signUpModal.classList.remove('show');
                     signModal.classList.add('show');" 
@@ -257,23 +257,25 @@ function customerFooterUI() {
                     <!-- About College -->
                     <article class="about">
                         <h1 class="sm">about</h1>
-                        <p>Malwa Institute of Technology is governed by Indus 
-                        Global Educational & Welfare Society which was founded 
-                        in 2003 by a group of industrialists and educationalists
-                        who shared a vision of establishing centers of scientific
-                        learning around the country.</p>
+                        <p>The University of Macau (UM) is a comprehensive 
+                        research-oriented public university of international 
+                        standing. Since her establishment in 1981, UM has been
+                        dedicated to providing a multifaceted education through
+                        our unique educational model and residential college 
+                        system and in accordance with the university motto: 
+                        Humanity, Integrity, Propriety, Wisdom and Sincerity
+                        </p>
                         <ul class="py-1">
-                            <li><i class="fab fa-facebook-f"></i><a href="" target="_blank"> Facebook</a></li>
-                            <li><i class="fab fa-instagram"></i><a href="" target="_blank">Instagram</a></li>
+                            <li><i class="fab fa-facebook-f"></i><a href="" >Facebook</a></li>
+                            <li><i class="fab fa-instagram"></i><a href="" >Instagram</a></li>
                         </ul>
                     </article>
                     <!-- Navigation Links -->
                     <article class="quick-links">
                         <ul>
                             <h1 class="sm">Quick Links</h1>
-                            <li><a href="index.html">Canteen Home</a></li>
-                            <li><a href="our-vision.html">Our Vision</a></li>
-                            <li><a href="" target="_blank">Git Repository</a></li>
+                            <li><a href="cisc3003-project-demo01.html">Canteen Home</a></li>
+                            <li><a href="" >Git Repository</a></li>
                         </ul>
                     </article>
                     <!-- Contact Details -->
@@ -289,7 +291,7 @@ function customerFooterUI() {
                 <!-- Deep Devs Info -->
                 <main class="deep-devs flex">
                     <div>© Copyright 2020 - 2021. All Rights Reserved</div>
-                    <div class="">Designed & Developed with <i class="fas fa-heart clr-red"></i> By <a href="#">Deep Devs</a></div>
+                    <div class="">Designed & Developed with By <a href="#">Devs.</a></div>
                 </main>
             </section>
         `;
@@ -310,13 +312,17 @@ function userFooterUI() {
                     <!-- About College -->
                     <article class="about">
                         <h1 class="sm">about</h1>
-                        <p>Malwa Institute of Technology is governed by Indus 
-                        Global Educational & Welfare Society which was founded 
-                        in 2003 by a group of industrialists and educationalists
-                        who shared a vision of establishing centers of scientific
-                        learning around the country.</p>
+                        <p>
+                        The University of Macau (UM) is a comprehensive 
+                        research-oriented public university of international 
+                        standing. Since her establishment in 1981, UM has been
+                        dedicated to providing a multifaceted education through
+                        our unique educational model and residential college 
+                        system and in accordance with the university motto: 
+                        Humanity, Integrity, Propriety, Wisdom and Sincerity
+                        </p>
                         <ul class="py-1">
-                            <li><i class="fab fa-facebook-f"></i><a href="" target="_blank"> Facebook</a></li>
+                            <li><i class="fab fa-facebook-f"></i><a href="" > Facebook</a></li>
                             <li><i class="fab fa-instagram"></i><a href="">Instagram</a></li>
                         </ul>
                     </article>
@@ -326,7 +332,7 @@ function userFooterUI() {
                             <h1 class="sm">Quick Links</h1>
                             <li><a href="client-side.html">Menu</a></li>
                             <li><a href="user-orders.html">Your Orders</a></li>
-                            <li><a href="" target="_blank">Git Repository</a></li>
+                            <li><a href="" >Git Repository</a></li>
                         </ul>
                     </article>
                     <!-- Contact Details -->
