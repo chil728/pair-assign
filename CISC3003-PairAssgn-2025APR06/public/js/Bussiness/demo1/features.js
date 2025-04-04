@@ -274,6 +274,7 @@ function customerFooterUI() {
                     <article class="quick-links">
                         <ul>
                             <h1 class="sm">Quick Links</h1>
+                            <li><a href="cisc3003-PairAssgn-home.html">Dev. Home</a></li>
                             <li><a href="cisc3003-project-demo01.html">Canteen Home</a></li>
                             <li><a href="" >Git Repository</a></li>
                         </ul>
