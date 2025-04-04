@@ -196,8 +196,52 @@ main {
     min-height: calc(100dvh - 80px);
 }
 
+.wrapper {
+    display: flex;
+}
+
+section {
+    min-height: 50dvh;
+    padding: 40px;
+}
+
+section h1 {
+    width: 100%;
+    text-align: center;
+}
+
+#values {
+    /* background-color: ; */
+}
+
+aside {
+    width: 600px;
+}
+
+aside ul {
+    background-color: rgba(255, 255, 255, 0.5);
+    position: sticky;
+    top: 120px;
+    padding: 40px;
+}
+
+aside ul li {
+    margin-bottom: 20px;
+}
+
+aside ul li a {
+    color: rgb(127, 127, 127);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+aside ul li a:hover {
+    color: var(--text-color);
+}
+
 .blur-circle {
-    position: fixed;
+    position: absolute;
     border-radius: 50%;
     z-index: -1;
 }
@@ -482,7 +526,7 @@ footer p {
         height: 200px;
         top: 50dvh;
         left: auto;
-        right: -100px;
+        right: 0px;
     }
 
     .blur-circle:nth-child(3) {
