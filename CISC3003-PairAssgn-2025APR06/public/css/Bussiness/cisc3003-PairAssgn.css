@@ -252,6 +252,7 @@ aside ul li a:hover {
     position: absolute;
     border-radius: 50%;
     z-index: -1;
+    filter: blur(90px);
 }
 
 @keyframes scaling {
@@ -271,7 +272,7 @@ aside ul li a:hover {
     opacity: 0.5;
     top: -330px;
     right: 100px;
-    filter: blur(90px);
+    
     /* z-index: 2; */
     animation: scaling 15s linear infinite;
 }
@@ -283,7 +284,6 @@ aside ul li a:hover {
     top: calc(50dvh - 250px);
     opacity: 0.6;
     left: -250px;
-    filter: blur(90px);
     animation: scaling 10s linear infinite;
 }
 
@@ -294,8 +294,18 @@ aside ul li a:hover {
     opacity: 0.3;
     top: 50dvh;
     left: calc(50dvw - 150px);
-    filter: blur(90px);
     animation: scaling 5s linear infinite;
+}
+
+.blur-circle:nth-child(4) {
+    position: absolute;
+    background-color: #f57162;
+    width: 600px;
+    height: 600px;
+    opacity: 0.3;
+    top: calc(50dvh + 100px);
+    right: 0px;
+    animation: scaling 1s linear infinite;
 }
 
 #hero {
@@ -542,6 +552,10 @@ footer {
         height: 300px;
         top: calc(100dvh - 150px);
         left: -150px;
+    }
+
+    .blur-circle:nth-child(4) {
+        display: none;
     }
 
     .hero-left h1 {
