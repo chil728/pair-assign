@@ -457,7 +457,7 @@ footer {
     color: var(--btn-color);
 }
 
-footer p {
+.footer-text {
     border-top: 2px solid var(--primary-bg-color);
     padding-top: 20px;
     text-align: center;
