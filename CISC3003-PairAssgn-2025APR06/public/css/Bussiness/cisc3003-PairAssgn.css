@@ -121,7 +121,7 @@ li {
     left: 0;
     width: 0;
     height: 3px;
-    background-color: var(--btn-color);
+    background: linear-gradient(90deg, var(--theme-dark), var(--btn-color));
     border-radius: 5px;
     transition: all .3s ease;
 }
