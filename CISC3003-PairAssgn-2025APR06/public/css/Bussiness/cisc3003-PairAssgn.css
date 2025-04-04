@@ -236,6 +236,10 @@ aside ul li a {
     gap: 10px;
 }
 
+aside ul li a.active {
+    color: var(--text-color);
+}
+
 aside ul li a:hover {
     color: var(--text-color);
 }
