@@ -56,9 +56,7 @@ ul, li {
     position: fixed;
     width: 100%;
     height: 80px;
-    background-color: var(--primary-bg-color);
-    z-index: 1;
-    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1), 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+    /* background-color: var(--primary-bg-color); */
 }
 
 .navbar {
@@ -71,7 +69,6 @@ ul, li {
 }
 
 .logo {
-    margin-right: auto;
     transition: all .3s ease;
 }
 
@@ -126,11 +123,14 @@ ul, li {
 .nav-btn {
     appearance: none;
     -webkit-appearance: none;
-    border: 2px solid var(--btn-color);
     background-color: transparent;
-    padding: 10px 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
     color: var(--text-color);
-    font-size: 1rem;
+    font-size: 1.5rem;
     border-radius: 10px;
     cursor: pointer;
     transition: all .3s ease-in-out;
@@ -163,6 +163,75 @@ main {
     min-height: calc(100dvh - 80px);
 }
 
+.blur-circle {
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+@keyframes scaling {
+    50% { transform: scale(1.1); }
+    99.9% { transform: scale(1); }
+}
+
+.blur-circle:nth-child(1) {
+    width: 500px;
+    height: 500px;
+    background-color: #b6fcc9;
+    opacity: 0.5;
+    top: -330px;
+    right: 100px;
+    filter: blur(90px);
+    animation: scaling 15s linear infinite;
+}
+
+.blur-circle:nth-child(2) {
+    width: 400px;
+    height: 400px;
+    background-color: #fce8b6;
+    top: calc(50dvh - 250px);
+    opacity: 0.6;
+    left: -250px;
+    filter: blur(90px);
+    animation: scaling 10s linear infinite;
+}
+
+.blur-circle:nth-child(3) {
+    background-color:  var(--btn-color);
+    width: 300px;
+    height: 300px;
+    opacity: 0.3;
+    top: 50dvh;
+    left: calc(50dvw - 150px);
+    filter: blur(90px);
+    animation: scaling 5s linear infinite;
+}
+
 #hero {
     min-height: calc(100dvh - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-box {
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.hero-left h1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 5rem;
+}
+
+.hero-left p {
+    font-size: 1.5rem;
 }
