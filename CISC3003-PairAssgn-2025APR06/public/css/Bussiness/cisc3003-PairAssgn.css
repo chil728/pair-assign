@@ -108,6 +108,7 @@ li {
     font-size: 1rem;
     position: relative;
     padding: 5px;
+    cursor: pointer;
 }
 
 .nav-link::after {
