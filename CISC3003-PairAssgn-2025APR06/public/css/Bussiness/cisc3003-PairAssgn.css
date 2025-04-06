@@ -541,10 +541,12 @@ aside ul li a:hover {
     padding: 40px;
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .partner {
+    max-width: calc(50% - 40px);
     height: fit-content;
     background-color: #FFFFFF;
     padding: 40px;
@@ -803,6 +805,7 @@ footer {
     }
 
     .partner {
+        max-width: 100%;
         width: 100%;
         flex-direction: column;
         border-radius: 20px;
