@@ -19,10 +19,9 @@
                 <li><a href="./cisc3003-PairAssgn-showcase.html" class="nav-link">Showcase</a></li>
                 <li><a href="./cisc3003-PairAssgn-summary.html" class="nav-link">Summary</a></li>
                 <span class="search">
-                    <input type="text" name="" id="" placeholder="Start your idea">
+                    <input type="text" name="" class="nav-search" placeholder="Start your idea">
                     <button class="nav-btn"><i class='bx bx-search'></i></button>
                 </span>
-
             </ul>
             <div class="toggle-menu">
                 <span class="bar"></span>
@@ -31,7 +30,6 @@
             </div>
         </nav>
     </header>
-
 
     <div class="wrapper">
         <main class="page-side">
@@ -107,17 +105,57 @@
 
             <section id="posts">
                 <h1>Our Blog Posts</h1>
-                <div class="card">
-                    <img src="">
+                <div class="cards-container">
+                    <div class="card">
+                        <h2></h2>
+                    </div>
+                    <div class="card">
+                        <h2></h2>
+                    </div>
+                    <div class="card">
+                        <h2></h2>
+                    </div>
                 </div>
             </section>
             <section id="contact">
                 <h1>Our Contact</h1>
-                <div class="cards-container" id="contact-cards">
-                    <div class="card"><a href="#"><i class='bx bxl-github' style="font-size:64px;"></i></a></div>
-                    <div class="card"><a href="#"><i class='bx bxl-twitter' style="font-size:64px;"></i></a></div>
-                    <div class="card"><a href="#"><i class='bx bxl-instagram' style="font-size:64px;"></i></a></div>
-                    <div class="card"><a href="#"><i class='bx bxl-linkedin-square' style="font-size:64px;"></i></a></div>
+                <div class="cards-container">
+                    <div class="card">
+                        <a href="#" style="font-size:1.5rem;" ><i class='bx bxl-github' ></i> Github</a>
+                    </div>
+                    <div class="card">
+                        <a href="#" style="font-size:1.5rem;" ><i class='bx bxl-twitter' ></i> Twitter</a>
+                    </div>
+                    <div class="card">
+                        <a href="#" style="font-size:1.5rem;" ><i class='bx bxl-instagram' ></i>Instagram</a>
+                    </div>
+                    <div class="card">
+                        <a href="#" style="font-size:1.5rem;" ><i class='bx bxl-linkedin-square' ></i> LinkedIn</a>
+                    </div>
+                </div>
+                <div class="form-container">
+                    <form action="">
+                        <div class="form-row">
+                            <div class="form-field">
+                                <input class="form-input" type="text" name="first-name" placeholder="First Name">
+                                <label class="form-label" for="first-name">First Name</label>
+                            </div>
+                            <div class="form-field">
+                                <input class="form-input" type="text" name="last-name" placeholder="Last Name">
+                                <label class="form-label" for="last-name">Last Name</label>
+                            </div>
+                        </div class="form-field">
+                        
+                        <div class="form-field">
+                            <input class="form-input" type="text" name="email" placeholder="Email">
+                            <label class="form-label" for="email">Email</label>
+                        </div>
+                        <div class="form-field">
+                            <textarea class="form-textarea" name="message" id="" cols="30" rows="8" placeholder="Message"></textarea>
+                            <label class="form-label" for="message">Message</label>
+                        </div>
+                        <input class="form-btn" type="submit" value="Send">
+                    </form>
                 </div>
             </section>
         </main>
