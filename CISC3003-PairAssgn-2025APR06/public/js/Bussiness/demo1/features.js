@@ -19,7 +19,7 @@ if (previewNavbar) {
             <nav class="site-nav flex left-nav align-item-center">                
                 <ul class="flex">
                     <li><a href="cisc3003-project-demo01.html"><i class="fas fa-home"></i> Home</a></li>
-                    <li><a href="#our-vision"><i class="far fa-eye"></i> Our Vision</a></li>
+                    <li><a href="cisc3003-PairAssgn-home.html"><i class="bx bx-coffee"></i> Dev.</a></li>
                     <button  class="btn" id="sign-modal">Log In</button>
                     <button  class="btn" id="signup-modal">Sign Up</button>
                 </ul>
