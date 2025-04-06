@@ -2,7 +2,7 @@
 const previewNavbar = document.querySelector('#preview-navbar')
 if (previewNavbar) {
     previewNavbar.innerHTML = `
-        <div class="container flex text-center jc-ai-center">
+        <div class="container fixed flex text-center jc-ai-center">
             <!-- Left Navigation -->
             <div class="site-title flex align-item-center">
                 <div>
