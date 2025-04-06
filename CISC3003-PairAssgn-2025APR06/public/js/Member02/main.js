@@ -23,6 +23,7 @@
         if (hash == '#header') {
           $('#header').removeClass('header-top');
           $("section").removeClass('section-show');
+          $("footer").removeClass('footer-show');
           return;
         }
 
@@ -31,10 +32,12 @@
           setTimeout(function() {
             $("section").removeClass('section-show');
             $(hash).addClass('section-show');
+            $("footer").addClass('footer-show');
           }, 350);
         } else {
           $("section").removeClass('section-show');
           $(hash).addClass('section-show');
+          $("footer").addClass('footer-show');
         }
 
         if ($('body').hasClass('mobile-nav-active')) {

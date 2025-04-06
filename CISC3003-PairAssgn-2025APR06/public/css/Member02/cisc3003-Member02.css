@@ -50,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #header {
   transition: ease-in-out 0s;
-  position: relative;
+  position: absolute;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -885,6 +885,57 @@ section .container {
 .portfolio .portfolio-wrap:hover .portfolio-info::after {
   bottom: 15px;
   right: 15px;
+}
+
+/* Footer Styles */
+
+
+footer {
+  overflow:hidden;
+  top: -100%;
+  position: relative;
+  background-color: #171819;
+  color: #fff;
+  text-align: center;
+  clear: both;
+  opacity: 0;
+  z-index: 2;
+}
+
+footer.footer-show {
+  top: 1000px;
+  padding: 40px 0;
+  opacity: 1;
+}
+
+footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-content {
+  margin: 0 auto;
+}
+
+.footer-content p {
+  margin: 0;
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+.footer-social {
+  margin-top: 15px;
+}
+
+.footer-social a {
+  margin: 0 10px;
+  font-size: 24px;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+  color: #12d640;
 }
 
 /*--------------------------------------------------------------
