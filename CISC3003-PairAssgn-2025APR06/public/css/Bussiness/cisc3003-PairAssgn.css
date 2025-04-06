@@ -546,7 +546,7 @@ footer {
 @media screen and (max-width: 768px) {
 
     .navbar,
-    #about-us,
+    section,
     .partner,
     footer {
         padding: 20px;
@@ -653,6 +653,28 @@ footer {
     .partner-img img {
         width: 100%;
         height: auto;
+    }
+
+    section h1 {
+        font-size: 1.8rem;
+    }
+
+    .page-side {
+        width: 100%;
+    }
+
+    .cards-container {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    aside, 
+    aside ul {
+        display: none;
+        width: 0px;
     }
 
     .footer-links {
