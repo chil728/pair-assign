@@ -211,7 +211,6 @@ section {
 section h1 {
     width: 100%;
     text-align: center;
-    margin-bottom: 40px;
     color: var(--text-color);
     font-size: 2rem;
 }
@@ -357,25 +356,27 @@ aside ul li a:hover {
 }
 
 .hero-box {
-    max-width: 1300px;
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    gap: 40px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.hero-left {
+    margin-top: 80px;
+    width: 50%;
 }
 
 .hero-left h1 {
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: left;
     gap: 5px;
     font-size: 5rem;
 }
 
 .hero-left p {
     font-size: 1.5rem;
+    margin-bottom: 20px;
 }
 
 .hero-right {
