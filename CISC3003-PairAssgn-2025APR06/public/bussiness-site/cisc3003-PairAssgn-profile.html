@@ -19,10 +19,9 @@
                 <li><a href="./cisc3003-PairAssgn-showcase.html" class="nav-link">Showcase</a></li>
                 <li><a href="./cisc3003-PairAssgn-summary.html" class="nav-link">Summary</a></li>
                 <span class="search">
-                    <input type="text" name="" id="" placeholder="Start your idea">
+                    <input type="text" name="" class="nav-search" placeholder="Start your idea">
                     <button class="nav-btn"><i class='bx bx-search'></i></button>
                 </span>
-
             </ul>
             <div class="toggle-menu">
                 <span class="bar"></span>
@@ -31,7 +30,6 @@
             </div>
         </nav>
     </header>
-
 
     <div class="wrapper">
         <main class="page-side">
@@ -109,29 +107,50 @@
                 <h1>Our Blog Posts</h1>
                 <div class="cards-container">
                     <div class="card">
-                        <a href="https://www.wix.com/blog/blog-design">
-                            <strong><i>10 examples of blog design done right, plus tips to create your own</i></strong>
-                        </a>
+                        <strong><i>10 examples of blog design done right, plus tips to create your own</i></strong>
+                        <span class="card-link"><a href="https://www.wix.com/blog/blog-design">View More</a></span>
                     </div>
                     <div class="card">
-                        <a href="https://www.wix.com/blog/how-to-build-website-from-scratch-guide">
-                            <strong><i>How to create a website from scratch in 11 steps (for beginners)</i></strong>
-                        </a>
+                        <strong><i>How to create a website from scratch in 11 steps (for beginners)</i></strong>
+                        <span class="card-link"><a href="https://www.wix.com/blog/how-to-build-website-from-scratch-guide">View More</a></span>
                     </div>
                     <div class="card">
-                        <a href="https://www.wix.com/blog/web-design">
-                            <strong><i>What is web design? A comprehensive guide</i></strong>
-                        </a>
+                        <strong><i>What is web design? A comprehensive guide</i></strong>
+                        <span class="card-link"><a href="https://www.wix.com/blog/web-design">View More</a></span>
                     </div>
                 </div>
             </section>
             <section id="contact">
                 <h1>Our Contact</h1>
-                <div class="cards-container" id="contact-cards">
-                    <div class="card"><a href="#"><i class='bx bxl-github' style="font-size:64px;"></i></a></div>
-                    <div class="card"><a href="#"><i class='bx bxl-twitter' style="font-size:64px;"></i></a></div>
-                    <div class="card"><a href="#"><i class='bx bxl-instagram' style="font-size:64px;"></i></a></div>
-                    <div class="card"><a href="#"><i class='bx bxl-linkedin-square' style="font-size:64px;"></i></a></div>
+                <div class="card flex-row">
+                    <a href="#" ><i class='bx bxl-github' ></i></a>
+                    <a href="#" ><i class='bx bxl-twitter' ></i></a>
+                    <a href="#" ><i class='bx bxl-instagram' ></i></a>
+                    <a href="#" ><i class='bx bxl-linkedin-square' ></i></a>
+                </div>
+                <div class="form-container">
+                    <form action="">
+                        <div class="form-row">
+                            <div class="form-field">
+                                <input class="form-input" type="text" name="first-name" placeholder="First Name">
+                                <label class="form-label" for="first-name">First Name</label>
+                            </div>
+                            <div class="form-field">
+                                <input class="form-input" type="text" name="last-name" placeholder="Last Name">
+                                <label class="form-label" for="last-name">Last Name</label>
+                            </div>
+                        </div class="form-field">
+                        
+                        <div class="form-field">
+                            <input class="form-input" type="text" name="email" placeholder="Email">
+                            <label class="form-label" for="email">Email</label>
+                        </div>
+                        <div class="form-field">
+                            <textarea class="form-textarea" name="message" id="" cols="30" rows="8" placeholder="Message"></textarea>
+                            <label class="form-label" for="message">Message</label>
+                        </div>
+                        <input class="form-btn" type="submit" value="Send">
+                    </form>
                 </div>
             </section>
         </main>
