@@ -36,13 +36,13 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--theme-dark);
+    background: var(--btn-color);
     border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
     background: var(--text-color);
-} */
+}*/
 
 a {
     position: relative;
@@ -212,20 +212,74 @@ section {
 section h1 {
     width: 100%;
     text-align: center;
+    margin-bottom: 40px;
+    color: var(--text-color);
+    font-size: 2rem;
 }
 
-#values {
-    /* background-color: ; */
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
 }
+
+.card {
+    width: 30%;
+    background-color: #FFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    -webkit-box-shadow: 10px 10px 12px -5px rgba(0,0,0,0.14);
+    -moz-box-shadow: 10px 10px 12px -5px rgba(0,0,0,0.14);
+    box-shadow: 10px 10px 12px -5px rgba(0,0,0,0.14);
+    transition: all .4s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    -webkit-box-shadow: 10px 10px 12px 10px rgba(0,0,0,0.14);
+    -moz-box-shadow: 10px 10px 12px 10px rgba(0,0,0,0.14);
+    box-shadow: 10px 10px 12px 10px rgba(0,0,0,0.14);
+}
+
+.card h2 {
+    color: var(--theme-dark);
+    margin-bottom: 20px;
+}
+
+.card p {
+
+}
+
+/* #values {
+    background-color: #facfbb;
+}
+
+#career {
+    background-color: #ffffc4;
+}
+
+#interests {
+    background-color: #c4ecff;
+}
+
+#posts {
+    background-color: #eedbff;
+}
+
+#contact {
+    background-color: #defccf;
+} */
 
 aside {
     width: 600px;
 }
 
 aside ul {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: var(--primary-bg-color);
     position: sticky;
-    top: 120px;
+    top: 80px;
     padding: 40px;
 }
 
@@ -365,18 +419,21 @@ aside ul li a:hover {
     padding: 40px;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
     gap: 40px;
 }
 
 .partner {
+    height: fit-content;
     background-color: #FFFFFF;
     padding: 40px;
     border-radius: 50px;
     display: flex;
     flex-direction: row;
     gap: 20px;
+}
+
+.partner-img {
+    height: fit-content;
 }
 
 .partner-img img {
@@ -387,6 +444,7 @@ aside ul li a:hover {
 .partner-info {
     display: flex;
     flex-direction: column;
+    height: fit-content;
 }
 
 .partner-info .name {
@@ -576,6 +634,7 @@ footer {
     }
 
     .partner {
+        width: 100%;
         flex-direction: column;
         border-radius: 20px;
     }
