@@ -214,6 +214,57 @@ section h1 {
     text-align: center;
 }
 
+.showcase-imgs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;}
+
+.showcase-imgs img {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.offers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 0;
+}
+
+.offer-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: fit-content;
+    height:auto;
+    background-color: var(--second-bg-color);
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.offer-box *{
+    text-align: center;
+}
+
+.offer-box h3{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.offer-box span{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: var(--btn-color);
+}
+
+
+
 #values {
     /* background-color: ; */
 }
