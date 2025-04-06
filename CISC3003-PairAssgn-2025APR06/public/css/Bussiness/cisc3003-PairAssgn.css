@@ -194,15 +194,18 @@ main {
 }
 
 .wrapper {
-    width: 100%;
     display: flex;
     flex-direction: row;
 }
 
+.page-side {
+    width: calc(100% - 500px);
+}
+
 section {
-    width: calc(100dvw - 500px);
     min-height: 60dvh;
     padding: 40px;
+    margin-bottom: 80px;
 }
 
 section h1 {
@@ -214,13 +217,14 @@ section h1 {
 }
 
 .cards-container {
+    width: 100%;
     display: flex;
     flex-direction: row;
     gap: 40px;
 }
 
 .card {
-    width: 30%;
+    width: calc((100% - 80px) / 3);
     background-color: #FFF;
     border-radius: 10px;
     display: flex;
@@ -244,13 +248,24 @@ section h1 {
     margin-bottom: 20px;
 }
 
+.card-img {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card p {
+    margin-bottom: 40px;
+}
+
 aside {
     width: 500px;
+    right: 0;
 }
 
 aside ul {
     background-color: var(--primary-bg-color);
     position: sticky;
+    height: 100%;
     top: 80px;
     padding: 40px;
 }
@@ -430,13 +445,23 @@ aside ul li a:hover {
     height: fit-content;
 }
 
-.partner-info .name {
+.partner-info .partner-labels {
+    margin: 10px 0;
+}
+
+.partner-info .label {
+    background-color: var(--second-bg-color);
     width: fit-content;
-    background-color: #fce8b6;
     padding: 5px 10px;
     margin-bottom: 10px;
     border-radius: 10px;
     font-size: 1.5rem;
+}
+
+.partner-labels .label {
+    margin-right: 10px;
+    background-color: var(--theme-dark);
+    color: var(--primary-bg-color);
 }
 
 .partner-info .description {
@@ -637,6 +662,10 @@ footer {
     }
 
     .page-side {
+        width: 100%;
+    }
+
+    section {
         width: 100%;
     }
 
