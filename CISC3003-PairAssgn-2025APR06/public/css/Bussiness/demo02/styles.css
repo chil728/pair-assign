@@ -860,6 +860,7 @@ input {
     color: var(--white-color);
   }
   .nav__dark {
+    margin-left:5px;
     position: initial;
   }
   .nav__menu {
