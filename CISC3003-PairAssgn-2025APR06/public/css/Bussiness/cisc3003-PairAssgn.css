@@ -221,6 +221,13 @@ section h1 {
     gap: 40px;
 }
 
+#contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 #contact .cards-container {
     margin-bottom: 40px;
 }
@@ -269,6 +276,22 @@ section h1 {
     gap: 10px;
     align-items: center;
     justify-content: center;
+}
+
+.card.flex-row {
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.card.flex-row a {
+    font-size: 2rem;
+    transition: all .3s ease;
+}
+
+.card.flex-row a:hover {
+    transform: scale(1.1);
 }
 
 .form-container {
@@ -818,6 +841,10 @@ footer {
     }
 
     .card {
+        width: 100%;
+    }
+
+    .card.flex-row {
         width: 100%;
     }
 
