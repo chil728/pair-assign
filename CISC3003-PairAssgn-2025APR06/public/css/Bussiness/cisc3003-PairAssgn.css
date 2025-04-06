@@ -677,6 +677,11 @@ footer {
         width: 100%;
     }
 
+    #contact-cards a{
+        text-align: center;
+        justify-self: center;
+    }
+
     aside, 
     aside ul {
         display: none;
