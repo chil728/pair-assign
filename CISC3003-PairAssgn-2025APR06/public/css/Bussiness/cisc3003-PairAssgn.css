@@ -150,6 +150,17 @@ input[type=text] {
     border: none;
     padding: 12px 15px;
     border-radius: 22px;
+    -webkit-box-shadow: 10px 10px 12px -5px rgba(0,0,0,0.14);
+    -moz-box-shadow: 10px 10px 12px -5px rgba(0,0,0,0.14);
+    box-shadow: 10px 10px 12px -5px rgba(0,0,0,0.14);
+    transition: all .4s ease;
+}
+
+input[type=text]:hover,
+input[type=text]:focus {
+    -webkit-box-shadow: 10px 10px 12px 5px rgba(0,0,0,0.14);
+    -moz-box-shadow: 10px 10px 12px 5px rgba(0,0,0,0.14);
+    box-shadow: 10px 10px 12px 5px rgba(0,0,0,0.14);
 }
 
 .nav-btn {
