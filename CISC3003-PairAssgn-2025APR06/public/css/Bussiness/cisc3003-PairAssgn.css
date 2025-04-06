@@ -40,7 +40,6 @@ li {
 .header {
     width: 100%;
     height: 80px;
-    /* background-color: var(--primary-bg-color); */
     background: transparent;
     z-index: 1;
 }
@@ -132,17 +131,17 @@ input[type=text] {
     border: none;
     padding: 12px 15px;
     border-radius: 22px;
-    -webkit-box-shadow: 10px 10px 12px -5px rgba(0,0,0,0.14);
-    -moz-box-shadow: 10px 10px 12px -5px rgba(0,0,0,0.14);
-    box-shadow: 10px 10px 12px -5px rgba(0,0,0,0.14);
+    -webkit-box-shadow: 10px 10px 12px -5px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 10px 10px 12px -5px rgba(0, 0, 0, 0.14);
+    box-shadow: 10px 10px 12px -5px rgba(0, 0, 0, 0.14);
     transition: all .4s ease;
 }
 
 input[type=text]:hover,
 input[type=text]:focus {
-    -webkit-box-shadow: 10px 10px 12px 5px rgba(0,0,0,0.14);
-    -moz-box-shadow: 10px 10px 12px 5px rgba(0,0,0,0.14);
-    box-shadow: 10px 10px 12px 5px rgba(0,0,0,0.14);
+    -webkit-box-shadow: 10px 10px 12px 5px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 10px 10px 12px 5px rgba(0, 0, 0, 0.14);
+    box-shadow: 10px 10px 12px 5px rgba(0, 0, 0, 0.14);
 }
 
 .nav-btn {
@@ -229,17 +228,17 @@ section h1 {
     display: flex;
     flex-direction: column;
     padding: 40px;
-    -webkit-box-shadow: 10px 10px 12px -5px rgba(0,0,0,0.14);
-    -moz-box-shadow: 10px 10px 12px -5px rgba(0,0,0,0.14);
-    box-shadow: 10px 10px 12px -5px rgba(0,0,0,0.14);
+    -webkit-box-shadow: 10px 10px 12px -5px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 10px 10px 12px -5px rgba(0, 0, 0, 0.14);
+    box-shadow: 10px 10px 12px -5px rgba(0, 0, 0, 0.14);
     transition: all .4s ease;
 }
 
 .card:hover {
     transform: translateY(-5px);
-    -webkit-box-shadow: 10px 10px 12px 10px rgba(0,0,0,0.14);
-    -moz-box-shadow: 10px 10px 12px 10px rgba(0,0,0,0.14);
-    box-shadow: 10px 10px 12px 10px rgba(0,0,0,0.14);
+    -webkit-box-shadow: 10px 10px 12px 10px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 10px 10px 12px 10px rgba(0, 0, 0, 0.14);
+    box-shadow: 10px 10px 12px 10px rgba(0, 0, 0, 0.14);
 }
 
 .card h2 {
@@ -264,7 +263,6 @@ aside {
 aside ul {
     background-color: var(--primary-bg-color);
     position: sticky;
-    height: 100%;
     top: 80px;
     padding: 40px;
 }
@@ -312,7 +310,7 @@ aside ul li a:hover {
     opacity: 0.5;
     top: -330px;
     right: 100px;
-    
+
     /* z-index: 2; */
     animation: scaling 15s linear infinite;
 }
@@ -359,24 +357,26 @@ aside ul li a:hover {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .hero-left {
     margin-top: 80px;
-    width: 50%;
 }
 
 .hero-left h1 {
     width: 100%;
     text-align: left;
-    gap: 5px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
     font-size: 5rem;
 }
 
 .hero-left p {
-    font-size: 1.5rem;
-    margin-bottom: 20px;
+    font-size: 1.3rem;
+    margin-bottom: 40px;
 }
 
 .hero-right {
@@ -418,17 +418,17 @@ aside ul li a:hover {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    -webkit-box-shadow: 10px 10px 12px -5px rgba(0,0,0,0.14);
-    -moz-box-shadow: 10px 10px 12px -5px rgba(0,0,0,0.14);
-    box-shadow: 10px 10px 12px -5px rgba(0,0,0,0.14);
+    -webkit-box-shadow: 10px 10px 12px -5px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 10px 10px 12px -5px rgba(0, 0, 0, 0.14);
+    box-shadow: 10px 10px 12px -5px rgba(0, 0, 0, 0.14);
     transition: all .4s ease;
 }
 
 .partner:hover {
     transform: translateY(-5px);
-    -webkit-box-shadow: 10px 10px 12px 10px rgba(0,0,0,0.14);
-    -moz-box-shadow: 10px 10px 12px 10px rgba(0,0,0,0.14);
-    box-shadow: 10px 10px 12px 10px rgba(0,0,0,0.14);
+    -webkit-box-shadow: 10px 10px 12px 10px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 10px 10px 12px 10px rgba(0, 0, 0, 0.14);
+    box-shadow: 10px 10px 12px 10px rgba(0, 0, 0, 0.14);
 }
 
 .partner-img {
@@ -630,12 +630,30 @@ footer {
         display: none;
     }
 
+    .hero-box {
+        flex-direction: column;
+    }
+
+    .hero-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0;
+    }
+
     .hero-left h1 {
+        justify-content: center;
+        text-align: center;
         font-size: 4.5rem;
     }
 
     .hero-left p {
         font-size: 1.2rem;
+    }
+
+    .hero-right {
+        order: -1;
     }
 
     .hero-right img {
@@ -678,7 +696,7 @@ footer {
         width: 100%;
     }
 
-    aside, 
+    aside,
     aside ul {
         display: none;
         width: 0px;
