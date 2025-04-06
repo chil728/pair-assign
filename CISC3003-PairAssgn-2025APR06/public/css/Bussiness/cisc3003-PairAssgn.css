@@ -244,6 +244,15 @@ section h1 {
     margin-bottom: 20px;
 }
 
+.card-img {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card p {
+    margin-bottom: 40px;
+}
+
 aside {
     width: 500px;
 }
@@ -251,6 +260,7 @@ aside {
 aside ul {
     background-color: var(--primary-bg-color);
     position: sticky;
+    height: 100%;
     top: 80px;
     padding: 40px;
 }
