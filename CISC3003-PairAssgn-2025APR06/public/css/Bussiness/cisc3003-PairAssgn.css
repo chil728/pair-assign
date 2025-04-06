@@ -417,6 +417,17 @@ aside ul li a:hover {
     display: flex;
     flex-direction: row;
     gap: 20px;
+    -webkit-box-shadow: 10px 10px 12px -5px rgba(0,0,0,0.14);
+    -moz-box-shadow: 10px 10px 12px -5px rgba(0,0,0,0.14);
+    box-shadow: 10px 10px 12px -5px rgba(0,0,0,0.14);
+    transition: all .4s ease;
+}
+
+.partner:hover {
+    transform: translateY(-5px);
+    -webkit-box-shadow: 10px 10px 12px 10px rgba(0,0,0,0.14);
+    -moz-box-shadow: 10px 10px 12px 10px rgba(0,0,0,0.14);
+    box-shadow: 10px 10px 12px 10px rgba(0,0,0,0.14);
 }
 
 .partner-img {
@@ -447,7 +458,8 @@ aside ul li a:hover {
     margin-bottom: 30px;
 }
 
-.partner-link {
+.partner-link,
+.card-btn {
     width: fit-content;
     padding: 10px;
     border-radius: 10px;
