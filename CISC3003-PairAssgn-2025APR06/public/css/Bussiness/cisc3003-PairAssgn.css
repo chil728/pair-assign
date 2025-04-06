@@ -259,79 +259,6 @@ section h1 {
     margin-bottom: 20px;
 }
 
-.card p {
-
-}
-
-/* #values {
-    background-color: #facfbb;
-}
-
-#career {
-    background-color: #ffffc4;
-}
-
-#interests {
-    background-color: #c4ecff;
-}
-
-#posts {
-    background-color: #eedbff;
-}
-
-#contact {
-    background-color: #defccf;
-} */
-
-.showcase-imgs{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;}
-
-.showcase-imgs img {
-    width: 500px;
-    height: auto;
-    border-radius: 10px;
-    margin: 10px;
-}
-
-.offers{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    padding: 40px 0;
-}
-
-.offer-box{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    width: fit-content;
-    height:auto;
-    background-color: var(--second-bg-color);
-    border-radius: 20px;
-    padding: 30px;
-}
-
-.offer-box *{
-    text-align: center;
-}
-
-.offer-box h3{
-    font-size: 2rem;
-    margin-bottom: 10px;
-}
-
-.offer-box span{
-    border-radius: 10px;
-    padding: 10px;
-    background-color: var(--btn-color);
-}
-
 aside {
     width: 500px;
 }
@@ -490,6 +417,17 @@ aside ul li a:hover {
     display: flex;
     flex-direction: row;
     gap: 20px;
+    -webkit-box-shadow: 10px 10px 12px -5px rgba(0,0,0,0.14);
+    -moz-box-shadow: 10px 10px 12px -5px rgba(0,0,0,0.14);
+    box-shadow: 10px 10px 12px -5px rgba(0,0,0,0.14);
+    transition: all .4s ease;
+}
+
+.partner:hover {
+    transform: translateY(-5px);
+    -webkit-box-shadow: 10px 10px 12px 10px rgba(0,0,0,0.14);
+    -moz-box-shadow: 10px 10px 12px 10px rgba(0,0,0,0.14);
+    box-shadow: 10px 10px 12px 10px rgba(0,0,0,0.14);
 }
 
 .partner-img {
@@ -520,7 +458,8 @@ aside ul li a:hover {
     margin-bottom: 30px;
 }
 
-.partner-link {
+.partner-link,
+.card-btn {
     width: fit-content;
     padding: 10px;
     border-radius: 10px;
@@ -595,8 +534,9 @@ footer {
 @media screen and (max-width: 768px) {
 
     .navbar,
-    #about-us,
+    section,
     .partner,
+    .card,
     footer {
         padding: 20px;
     }
@@ -702,6 +642,28 @@ footer {
     .partner-img img {
         width: 100%;
         height: auto;
+    }
+
+    section h1 {
+        font-size: 1.8rem;
+    }
+
+    .page-side {
+        width: 100%;
+    }
+
+    .cards-container {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    aside, 
+    aside ul {
+        display: none;
+        width: 0px;
     }
 
     .footer-links {
