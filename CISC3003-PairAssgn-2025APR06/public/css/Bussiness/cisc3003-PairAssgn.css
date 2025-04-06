@@ -802,6 +802,7 @@ footer {
 
     #about-us {
         flex-direction: column;
+        gap: 20px;
     }
 
     .partner {
